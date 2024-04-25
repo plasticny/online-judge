@@ -1,0 +1,15 @@
+.vscode
+target
+bin
+obj
+node_modules
+
+*.txt
+*.pdf
+*.exe
+*.csproj
+*.sln
+*.js
+
+package-lock.json
+tsconfig.tsbuildinfo

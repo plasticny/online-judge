@@ -1,0 +1,12 @@
+{
+  "name": "v114",
+  "version": "1.0.0",
+  "description": "",
+  "main": "114.js",
+  "scripts": {
+    "start": "tsc --incremental && node 114.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

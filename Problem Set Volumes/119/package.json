@@ -1,0 +1,12 @@
+{
+  "name": "v119",
+  "version": "1.0.0",
+  "description": "",
+  "main": "119.js",
+  "scripts": {
+    "start": "tsc --incremental && node 119.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

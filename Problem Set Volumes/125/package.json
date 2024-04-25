@@ -1,0 +1,16 @@
+{
+  "name": "v125",
+  "version": "1.0.0",
+  "description": "",
+  "main": "125.js",
+  "scripts": {
+    "start": "tsc --incremental && node 125.js",
+    "dev": "tsc --incremental && node dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "typescript-collections": "^1.3.3"
+  }
+}
