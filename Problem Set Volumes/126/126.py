@@ -7,9 +7,6 @@ class Term:
     self.coeff : int = coeff
     self.x_exp : int = x_exp
     self.y_exp : int = y_exp
-    
-  def __str__ (self) -> str:
-    return f'{self.coeff}x{self.x_exp}y{self.y_exp}'
   
   def times (self, other : Term) -> Term:
     return Term(
