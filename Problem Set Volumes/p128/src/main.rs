@@ -21,13 +21,12 @@ fn main() {
 
     let r = x % g;
     if r == 0 {
-      x = r;
+      println!("00 00");
     } else {
       x = g - r;
+      let mut first_half = format!("{:04x}", x).to_string().to_uppercase();
+      let second_half = first_half.split_off(2);
+      println!("{} {}", first_half, second_half);
     }
-
-    let mut first_half = format!("{:04x}", x).to_string().to_uppercase();
-    let second_half = first_half.split_off(2);
-    println!("{} {}", first_half, second_half);
   }
 }
