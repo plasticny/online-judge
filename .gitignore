@@ -10,6 +10,7 @@ node_modules
 *.csproj
 *.sln
 *.js
+*.class
 
 package-lock.json
 tsconfig.tsbuildinfo

@@ -1,0 +1,16 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsc --incremental && node main.js",
+    "dev": "tsc --incremental && node dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "typescript-collections": "^1.3.3"
+  }
+}
