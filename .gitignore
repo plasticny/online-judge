@@ -11,6 +11,7 @@ node_modules
 *.sln
 *.js
 *.class
+*.pdb
 
 package-lock.json
 tsconfig.tsbuildinfo
