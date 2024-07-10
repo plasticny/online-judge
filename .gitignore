@@ -12,6 +12,13 @@ node_modules
 *.js
 *.class
 *.pdb
+*.jar
 
 package-lock.json
 tsconfig.tsbuildinfo
+
+# not finish
+# to lazy to debug
+p0149
+# cannot understand the question
+p0150
