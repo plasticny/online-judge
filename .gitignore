@@ -3,6 +3,7 @@ target
 bin
 obj
 node_modules
+kotlin
 
 *.txt
 *.pdf
